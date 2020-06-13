@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.avocado">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/b"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".shirtinfo1" android:screenOrientation="portrait"/>
+        <activity android:name=".paymentsuccess" android:screenOrientation="portrait"/>
+        <activity android:name=".paymentfinal" android:screenOrientation="portrait"/>
+        <activity android:name=".paymentdetail4" android:screenOrientation="portrait"/>
+        <activity android:name=".paymentdetail3" android:screenOrientation="portrait"/>
+        <activity android:name=".paymentdetail2" android:screenOrientation="portrait"/>
+        <activity android:name=".paymentdetail" android:screenOrientation="portrait"/>
+        <activity android:name=".shirtinfo4" android:screenOrientation="portrait"/>
+        <activity android:name=".shirtinfo3" android:screenOrientation="portrait"/>
+        <activity android:name=".shirtinfo2" android:screenOrientation="portrait"/>
+        <activity android:name=".shirt" android:screenOrientation="portrait"/>
+        <activity android:name=".getsocial" android:screenOrientation="portrait"/>
+        <activity android:name=".english" android:screenOrientation="portrait"/>
+        <activity android:name=".indonesia" android:screenOrientation="portrait"/>
+        <activity android:name=".howtoorder" android:screenOrientation="portrait"/>
+        <activity android:name=".comingsoon" android:screenOrientation="portrait"/>
+        <activity android:name=".allproduct2" android:screenOrientation="portrait"/>
+        <activity android:name=".allproduct" android:screenOrientation="portrait"/>
+        <activity android:name=".contactus" android:screenOrientation="portrait"/>
+        <activity android:name=".home" android:screenOrientation="portrait"/>
+        <activity android:name=".Reg" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
